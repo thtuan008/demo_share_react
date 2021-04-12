@@ -3,6 +3,7 @@ import './App.css';
 import ClassComponent from './components/ClassComponent'
 import FunctionalComponent from './components/FunctionalComponent'
 import MultipleEffect from './components/MultipleEffect'
+import PassComplexProps from './components/PassComplexProps'
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <FunctionalComponent />
       </div>
       < MultipleEffect />
+
+      {/* Pass complex props */}
+      <PassComplexProps />
 
     </div>
   );

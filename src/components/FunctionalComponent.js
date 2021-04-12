@@ -8,6 +8,9 @@ const FunctionalComponent = () => {
   const [start, setStart] = useState(1)
   const ref = useRef(null)
 
+  const gbWin = document.querySelector('body')
+    console.log('window', gbWin);
+
   const clickAction = () => {
     setTestState(!testState)
 

@@ -8,6 +8,8 @@ class ClassComponent extends React.Component {
     this.componentRef = React.createRef()
     this.customMethod = this.customMethod.bind(this)
 
+    const gbWin = window.location.href
+    console.log('window', gbWin);
   }
 
   componentDidMount() { }
