@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const MultipleEffect = () => {
 
@@ -22,10 +22,12 @@ const MultipleEffect = () => {
   }, [end])
   
   return (
-    <React.Fragment>
-      <h2 onClick={() => { changeStart() }}><a>Change Start</a></h2>
-      <h2 onClick={() => { changeEnd() }}><a>Change End</a></h2>
-    </React.Fragment>
+    <div className="m-5 p-3 bg-info text-white">
+      <h1>Use Multiple Effect</h1>
+      <h2 onClick={() => { changeStart() }}><a>Change Start</a> { start ? 1 : 0}</h2>
+
+      <h2 onClick={() => { changeEnd() }}><a>Change End</a> { end ? 1 : 0}</h2>
+    </div>
   )
 }
 

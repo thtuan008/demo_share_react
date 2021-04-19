@@ -30,23 +30,48 @@ export default PassComplexProps
 
 const Child = ({ arrayProps, jsonProps }) => {
 
-	const [arrayState, setArrayState] = useState(arrayProps)
+	const defauFill = {
+    framework: [1,2,3,3],
+    level: [],
+    status: [],
+    difficulty: []
+  }
+	const [arrayState, setArrayState] = useState(defauFill)
 
 	useEffect(() => {
 
-	}, arrayProps)
+	}, [arrayProps])
 
-	const result = arrayState.map(i => {
-		return (
-			<div>
-				<h3>{i.name}</h3>
-			</div>
-		)
-	})
+	// const result = arrayState.map(i => {
+	// 	return (
+	// 		<div>
+	// 			<h3>{i.name}</h3>
+	// 		</div>
+	// 	)
+	// })
+
+
 
 	return (
 		<div className="child-complex-props">
-			{ result}
+			{/* { result} */}
+
+			<GrandChild defauFill = {arrayState} />
+		</div>
+	)
+}
+
+
+const GrandChild = ({ defauFill }) => {
+
+	useEffect(() => {
+		const tmp = defauFill
+		console.log('dedddd', tmp)
+	})
+
+	return (
+		<div>
+
 		</div>
 	)
 }

@@ -38,10 +38,10 @@ const UseEffect = () => {
   })
   
   return (
-    <React.Fragment>
+    <div className="m-5 p-3 bg-info text-white">
       <h2 onClick={() => { changeStart() }}><a>Change Start</a></h2>
-      <h2 onClick={() => { changeEnd() }}><a>Change End</a></h2>
-    </React.Fragment>
+      {/* <h2 onClick={() => { changeEnd() }}><a>Change End</a></h2> */}
+    </div>
   )
 }
 
