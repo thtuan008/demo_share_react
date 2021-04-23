@@ -5,6 +5,9 @@ const PassComplexProps = () => {
 	const [end, setEnd] = useState(0)
 	const [start, setStart] = useState(0)
 
+	const ref2 = useRef(null)
+	let reff = null
+
 	const arrayPr = [
 		{
 			id: 1,
@@ -16,9 +19,16 @@ const PassComplexProps = () => {
 		}
 	]
 
+	useEffect(() => {
+		// ref2.current = start
+		console.log('ref', {reff: reff}, ref2);
+
+	});
+
 	return (
 		<React.Fragment>
-			<div>
+			<div ref={ ref2 }>
+				<div ref = { ref => { return reff = ref } }></div>
 				<Child arrayProps={arrayPr} />
 			</div>
 		</React.Fragment>

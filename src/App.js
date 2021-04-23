@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <div className="d-flex">
         <div className="col-6">
-          <ClassComponent />
+          {/* <ClassComponent /> */}
         </div>
         <div className="col-6">
           <FunctionalComponent />

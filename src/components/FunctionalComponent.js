@@ -58,7 +58,7 @@ const SubComponent = ({ start = 0 }) => {
   const [count, setCount] = useState(start)
 
   return (
-    <div className="m-5 p-3 bg-dark text-white" onClick={ () => { setCount(count + 1); }}>
+    <div className="m-5 p-3 bg-dark text-white" onClick={ () => { setCount(count + 1); setCount(count => count + 1); }}>
       <h2>Sub Component</h2>
       <h3>Sub count: {count}, Props Start: { start }</h3>
     </div>
