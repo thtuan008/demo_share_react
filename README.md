@@ -69,19 +69,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-Topic: 1: GATSBY Beginner: 
-- Introduce About Gatsby (what, why, how) 
-- Structure project (https://www.gatsbyjs.com/docs/reference/gatsby-project-structure/) 
-- How to a page is created * static page * dynamic page - Syntax and structure of module, page - Query data with graphQL 
-- Gatsby config file Master: - Connect with multi headless CMS - Dynamic Import Modules (Flexible modules) 
-- High Level GraphQl (Fragments, createSchemaCustomization) - Advanced APIs (createsPage, onPreBuild etc... ) (https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/) 
+Topic: 1: GATSBY Beginner:
+- Introduce About Gatsby (what, why, how)
+- Structure project (https://www.gatsbyjs.com/docs/reference/gatsby-project-structure/)
+- How to a page is created * static page * dynamic page - Syntax and structure of module, page - Query data with graphQL
+- Gatsby config file Master: - Connect with multi headless CMS - Dynamic Import Modules (Flexible modules)
+- High Level GraphQl (Fragments, createSchemaCustomization) - Advanced APIs (createsPage, onPreBuild etc... ) (https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/)
 
-2: REACT Zero: 
-- Introduce About React (what, why, how) 
-- How to create React app (cdn, create-react-app) 
-- Create Element in React - React Class and React Function Component 
-- Props and State - LifeCyle - Event Handler Hero: - React Hooks 
-- Async State in React Class and React Hooks 
-- Best practice format code for Hooks 
-- Redux, Redux Thunk, Context API. 
+2: REACT Zero:
+- Introduce About React (what, why, how)
+- How to create React app (cdn, create-react-app)
+- Create Element in React - React Class and React Function Component
+- Props and State - LifeCyle - Event Handler Hero: - React Hooks
+- Async State in React Class and React Hooks
+- Best practice format code for Hooks
+- Redux, Redux Thunk, Context API.
 - Rerender
+-Test
